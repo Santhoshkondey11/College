@@ -80,6 +80,10 @@ public class College {
 		rdbtnFemale.setBounds(233, 137, 80, 23);
 		frame.getContentPane().add(rdbtnFemale);
 
+		rdbtnother = new JRadioButton("other");
+		rdbtnother.setBounds(263, 137, 90, 23);
+		frame.getContentPane().add(rdbtnother);
+
 		ButtonGroup genderGroup = new ButtonGroup();
 		genderGroup.add(rdbtnMale);
 		genderGroup.add(rdbtnFemale);
@@ -149,3 +153,4 @@ public class College {
 		}
 	}
 }
+
